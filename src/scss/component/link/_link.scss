@@ -1,0 +1,17 @@
+.c-link {
+  text-decoration: none;
+  font-size: $font__s;
+  font-weight: $font__regular;
+  color: $color__text;
+
+  &:hover,
+  &:active,
+  &:focus {
+    cursor: pointer;
+      text-decoration: none;
+      color: $color__text--dark;
+  }
+}
+
+@import '__color/link__color';
+@import '__weight/link__weight';

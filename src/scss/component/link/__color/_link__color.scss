@@ -1,0 +1,29 @@
+.c-link__primary  {
+  color: $color__primary;
+
+  &:hover,
+  &:active,
+  &:focus {
+      color: $color__primary--dark;
+  }
+}
+
+.c-link__white  {
+  color: $color__white;
+
+  &:hover,
+  &:active,
+  &:focus {
+      opacity: 0.8;
+  }
+}
+
+.c-link__text--light {
+  color: $color__text--light;
+
+  &:hover,
+  &:active,
+  &:focus {
+      color: $color__text;
+  }
+}

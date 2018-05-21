@@ -1,0 +1,33 @@
+.c-video__player {
+  background-color: $color__white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 120px;
+  position: relative;
+  transition: box-shadow .15s,color .15s;
+  width: 120px;
+  cursor: pointer;
+  top: 150px;
+  border: none;
+
+  &::before {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 34px solid $color__primary;
+    content: "";
+    left: 55%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-55%,-50%);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: 0 10px 15px 0 rgba(36,50,66,.1);
+    outline: none;
+    &::before {
+      border-left: 34px solid $color__secondary;
+    }
+  }
+}

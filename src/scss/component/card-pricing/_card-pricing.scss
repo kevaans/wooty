@@ -1,0 +1,9 @@
+.c-card-pricing {
+  @include border-radius(8px);
+  position: relative;
+  background: $color__white;
+}
+
+@import '_front/card-pricing__front';
+@import '_color/card-pricing__color';
+@import 'shadow/card-pricing__shadow';

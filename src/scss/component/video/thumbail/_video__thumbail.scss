@@ -1,0 +1,11 @@
+.c-video__thumbail {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 150px;
+  max-width: 750px;
+
+  img {
+    width: 100%;
+  }
+}

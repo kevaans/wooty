@@ -1,0 +1,23 @@
+@each $spaceLabel, $spaceValue in $spaces {
+    // Selectors
+    .p-#{$spaceLabel}  { padding: $spaceValue !important; }
+    .py-#{$spaceLabel} { padding-top: $spaceValue !important; padding-bottom: $spaceValue !important; }
+    .px-#{$spaceLabel} { padding-left: $spaceValue !important; padding-right: $spaceValue !important; }
+    .pt-#{$spaceLabel} { padding-top: $spaceValue !important; }
+    .pb-#{$spaceLabel} { padding-bottom: $spaceValue !important; }
+    .pl-#{$spaceLabel} { padding-left: $spaceValue !important; }
+    .pr-#{$spaceLabel} { padding-right: $spaceValue !important; }
+}
+
+@media (max-width: 768px) {
+  @each $spaceLabel, $spaceValue in $spaces {
+      // Selectors
+      .p-sm-#{$spaceLabel}  { padding: $spaceValue !important; }
+      .py-sm-#{$spaceLabel} { padding-top: $spaceValue !important; padding-bottom: $spaceValue !important; }
+      .px-sm-#{$spaceLabel} { padding-left: $spaceValue !important; padding-right: $spaceValue !important; }
+      .pt-sm-#{$spaceLabel} { padding-top: $spaceValue !important; }
+      .pb-sm-#{$spaceLabel} { padding-bottom: $spaceValue !important; }
+      .pl-sm-#{$spaceLabel} { padding-left: $spaceValue !important; }
+      .pr-sm-#{$spaceLabel} { padding-right: $spaceValue !important; }
+  }
+}

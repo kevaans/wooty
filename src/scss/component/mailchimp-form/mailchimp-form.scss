@@ -1,0 +1,62 @@
+.c-mailchimp-form {
+  input {
+    border: 1px solid $color__text--light !important;
+    color: $color__text;
+
+    &:hover,
+    &:focus {
+      border: 1px solid $color__text !important;
+      outline: 0 !important;
+    }
+
+    &.c-btn {
+      color: $color__white;
+      border: none !important;
+    }
+
+    &::placeholder {
+      color: $color__border !important;
+    }
+  }
+
+  select {
+    background: transparent !important;
+    border: 1px solid $color__text--light !important;
+    font-size: 14px !important;
+    padding: 8px 10px !important; /* If you add too much padding here, the options won't show in IE */
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 3px !important;
+    color: $color__text !important;
+    -webkit-appearance: none;
+    position: relative;
+
+    &:hover,
+    &:focus {
+      border: 1px solid $color__text !important;
+      outline: 0 !important;
+    }
+
+    &::after {
+      position: relative;
+      right: 10px;
+      content: '\f0d7';
+    }
+  }
+}
+
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input {
+    width: 40px !important;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: $color__primary !important;
+}
+
+#mce-responses, #mc-embedded-subscribe {
+  margin-left: 0 !important;
+}
+
+#mce-responses {
+  padding-left: 0 !important;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "wooty",
+  "version": "1.0.0",
+  "description": "wooty project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:production": "NODE_ENV=production webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.8.3",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevaans/wooty.git"
+  },
+  "author": "kevin mellier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevaans/wooty/issues"
+  },
+  "homepage": "https://github.com/kevaans/wooty#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "node": "^10.0.0",
+    "popper.js": "^1.14.3"
+  }
+}

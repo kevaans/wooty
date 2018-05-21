@@ -1,0 +1,19 @@
+.c-nav {
+  height: 60px;
+  background: $color__background--secondary;
+
+  img {
+    width: 100px;
+  }
+
+  .c-link {
+    line-height: 30px;
+  }
+
+  @media (max-width:768px) {
+    .container {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

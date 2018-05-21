@@ -1,0 +1,16 @@
+/*--------------------
+NATIVE COLOR
+--------------------*/
+
+.u-color__primary     { color : $color__primary; }
+.u-color__primary     { color : $color__secondary; }
+
+.u-color__text        { color : $color__text; }
+.u-color__text--light { color : $color__text--light; }
+.u-color__border      { color : $color__border; }
+.u-color__background  { color : $color__background; }
+.u-color__white       { color : $color__white; }
+
+.u-color__primary--gradient { background: $color__primary--gradient; }
+
+.u-color__background { background: $color__background--secondary;}

@@ -1,0 +1,40 @@
+.c-video {
+  background: $color__secondary--gradient;
+  transform: skewY(3deg);
+
+  .container {
+    transform: skewY(-3deg);
+  }
+}
+
+.video-container {
+  max-width: 100%;
+  .modal-content {
+    position: relative;
+    padding-top: 30Px;
+    width: 100%;
+    height: calc(100vh - 0.5rem * 2);
+    overflow: hidden;
+  }
+}
+
+.modal-content iframe,
+.modal-content object,
+.modal-content embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: calc(100vh - 0.5rem * 2);
+}
+
+.video-container {
+  .close {
+    position: absolute;
+    top:0px;
+    right: 20px;
+  }
+}
+@import 'player/video__player';
+@import 'thumbail/video__thumbail';

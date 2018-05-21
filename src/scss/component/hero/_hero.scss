@@ -1,0 +1,9 @@
+.c-hero {
+  height: calc(80vh - 60px);
+
+  background: $color__background--secondary;
+
+  .c-hero__img {
+    width: 100%;
+  }
+}

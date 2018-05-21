@@ -1,0 +1,21 @@
+@each $spaceLabel, $spaceValue in $spaces {
+    .m-#{$spaceLabel} { margin: $spaceValue !important; }
+    .my-#{$spaceLabel} { margin-top: $spaceValue !important; margin-bottom: $spaceValue !important; }
+    .mx-#{$spaceLabel} { margin-left: $spaceValue !important; margin-right: $spaceValue !important; }
+    .mt-#{$spaceLabel} { margin-top: $spaceValue !important; }
+    .mb-#{$spaceLabel} { margin-bottom: $spaceValue !important; }
+    .ml-#{$spaceLabel} { margin-left: $spaceValue !important; }
+    .mr-#{$spaceLabel} { margin-right: $spaceValue !important; }
+}
+
+@media (max-width: 768px) {
+  @each $spaceLabel, $spaceValue in $spaces {
+      .m-sm-#{$spaceLabel} { margin: $spaceValue !important; }
+      .my-sm-#{$spaceLabel} { margin-top: $spaceValue !important; margin-bottom: $spaceValue !important; }
+      .mx-sm-#{$spaceLabel} { margin-left: $spaceValue !important; margin-right: $spaceValue !important; }
+      .mt-sm-#{$spaceLabel} { margin-top: $spaceValue !important; }
+      .mb-sm-#{$spaceLabel} { margin-bottom: $spaceValue !important; }
+      .ml-sm-#{$spaceLabel} { margin-left: $spaceValue !important; }
+      .mr-sm-#{$spaceLabel} { margin-right: $spaceValue !important; }
+  }
+}

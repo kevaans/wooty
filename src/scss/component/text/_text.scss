@@ -1,0 +1,8 @@
+.c-text {
+  font-family: $font-family;
+  color: $color__text;
+}
+
+@import 'paragraph/paragraph';
+@import 'title/title';
+@import 'header/header';

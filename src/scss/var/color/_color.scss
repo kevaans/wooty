@@ -1,0 +1,25 @@
+/*--------------------
+NATIVE COLOR
+--------------------*/
+
+$color__primary:       #AE7CF9;
+$color__secondary:     #BC7DFE;
+
+$color__primary--light:  lighten( $color__primary, 5% );
+$color__primary--dark:   darken( $color__primary, 5% );
+
+$color__primary--gradient: linear-gradient(60deg, $color__primary, $color__secondary);
+$color__secondary--gradient: linear-gradient(60deg, #9A7CF9, #C892FF);
+
+$color__text:          #5D678B;
+$color__text--light:   #A2ACCC;
+$color__border:        #E5E9F4;
+$color__background:    #F9F9F9;
+$color__white:         #FFF;
+$color__background--secondary: #F0F4FF;
+
+$color__text--dark:   darken( $color__text, 10% );
+
+body {
+  background: $color__background;
+}

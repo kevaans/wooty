@@ -1,0 +1,32 @@
+@mixin btn__color($default, $hover, $focus) {
+
+    background: $default;
+
+    @if $default == $color__white {
+        color: $color__text;
+
+        &:hover {
+            border: 1px solid $color__text;
+        }
+
+        &:active {
+            border: 1px solid $color__text;
+            background: $color__border;
+        }
+    } @else {
+
+        &:hover {
+            background: $hover;
+            color: $color__white;
+        }
+
+        &:active,
+        &:focus {
+            background: $focus;
+            color: $color__white;
+        }
+    }
+
+}
+
+.c-btn__primary    {@include btn__color($color__primary,   $color__primary--dark,   $color__primary--light)}

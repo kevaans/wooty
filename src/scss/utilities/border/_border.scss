@@ -1,0 +1,17 @@
+.u-border__right {
+  border-right: 1px solid $color__border;
+}
+
+.u-border__bottom {
+  border-bottom: 1px solid $color__border;
+}
+
+.u-border__bottom--dark {
+  border-bottom: 1px solid #A268F7;
+}
+
+.u-border__top {
+  border-top: 1px solid $color__border;
+}
+
+@import '__color/border--color';

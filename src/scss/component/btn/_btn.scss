@@ -1,0 +1,23 @@
+.c-btn {
+  @include border-radius;
+  min-height: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: $font__s;
+  font-weight: $font__light;
+  color: $color__white;
+  cursor: pointer;
+  padding: 2px 15px 0 15px;
+  font-family: $font-family;
+
+  &:hover,
+  &:active,
+  &:focus {
+      text-decoration: none;
+      outline:0;
+  }
+}
+
+@import '__color/btn__color';
